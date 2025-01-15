@@ -1,0 +1,37 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 75px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px 2px grey;
+  border-radius: 8px;
+  padding: 5px 10px;
+  /* gap: 20px; */
+}
+
+.valie {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.cntBtn {
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 2px grey;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    background-color: lightgoldenrodyellow;
+  }
+}
